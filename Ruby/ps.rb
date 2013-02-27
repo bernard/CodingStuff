@@ -1,6 +1,8 @@
 #!/usr/bin/ruby
 
 # Ruby version of my Python "ps.py"
+# This programs run a shell cmd which is "ps auxww" 
+# then print the result if PID > 200 and cmd begins with "/"
 
 cmd = `ps auxww`
 

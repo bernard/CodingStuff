@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# This programs run a shell cmd which is "ps auxww"
+# then print the result if PID > 200 and cmd begins with "/"
+
 import subprocess
 import re
 
